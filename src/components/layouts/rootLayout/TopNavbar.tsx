@@ -60,14 +60,14 @@ export default function TopNavbar() {
         <AppBar className="bg-transparent shadow-none">
           <Toolbar
             component={'nav'}
-            className="h-full w-full flex justify-between items-center py-[0.5em] px-[2em] bg-gradient-to-b from-black/50 to-transparent backdrop-blur"
+            className="h-full w-full flex justify-center items-center py-[0.5em] px-[2em] bg-gradient-to-b from-black/50 to-transparent backdrop-blur"
           >
             <LogoVariant1Svg className={'h-[4em] w-auto'} />
 
             {/* <Menu open>
               <MenuItem>Products</MenuItem>
             </Menu> */}
-            <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: '1em' }}>
+            {/* <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: '1em' }}>
               {topNavItems.map((item) => (
                 <Button
                   variant="outlined"
@@ -77,7 +77,7 @@ export default function TopNavbar() {
                   {item.label}
                 </Button>
               ))}
-            </Box>
+            </Box> */}
           </Toolbar>
         </AppBar>
       </HideOnScroll>

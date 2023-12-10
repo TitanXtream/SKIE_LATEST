@@ -4,3 +4,4 @@ export { default as AboutUsSection } from './homePage/aboutusSection/AboutUsSect
 export { default as ProdcuctsShowcaseSection } from './homePage/showcaseSection/ShowcaseSection'
 export { default as TopNavbar } from './layouts/rootLayout/TopNavbar'
 export { default as SecLayout } from './layouts/section/SecLayout'
+export { default as TextOverImgHover } from './uiToolkits/TextOverImgHover'

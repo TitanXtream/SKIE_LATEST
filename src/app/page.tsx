@@ -12,9 +12,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col gap-[4em]">
+    <div className="w-full flex flex-col gap-[4em] pb-[6em]">
       <HeroSection />
-      <AboutUsSection />
       <ShowcaseSection />
       {/* <HeroImage /> */}
       {/* HERO */}
@@ -22,6 +21,7 @@ export default function Home() {
       {/* SUCCESS */}
       {/* TECH STACKS */}
       {/* FAQS */}
+      <AboutUsSection />
       {/* CONTACT US */}
     </div>
   )

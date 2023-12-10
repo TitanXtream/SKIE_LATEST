@@ -35,14 +35,14 @@ const HeroSection = () => {
               this cup of tea
             </Typography>
           </div>
-          <Button
-            variant="outlined"
+          {/* <Button
+            variant="outlined"play
             // className="w-fit px-[2em] py-[0.5em] rounded-[5px] font-semibold bg-black/50 text-white"
 
             className="mt-[2em] font-semibold text-[2em] text-white border-white rounded-[40px]"
           >
             Learn more
-          </Button>
+          </Button> */}
         </div>
       </div>
     </section>
